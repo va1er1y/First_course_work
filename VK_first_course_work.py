@@ -11,7 +11,7 @@ FILE_NAME_TXT = 'log_download.txt'
 path = os.path.join(BASE_PATH, FILE_NAME_JSON)
 path_log_txt = os.path.join(BASE_PATH, FILE_NAME_TXT)
 
-
+TOKEN = 'AQAAAAA2ZMRvAADLW2TrzSJq40XHquhEprxMxHw'
 #Функция загрузки файлов логов на Я.диск
 def upload_file_json (file_path_Yadisk, path_json, token, path_txt):
         headers = {'Content-Type': 'application/json', 'Authorization': f'OAuth {token}'}
@@ -131,7 +131,7 @@ def choose_alboms(name_albom, id_user, path_txt):
             return albom_id
     if albom_id == None:
             sys.exit ('Не найден. Вероятно введено неправильное имя альбома') 
-TOKEN = input('Введите токен Я.диска (полигона)') 
+# TOKEN = input('Введите токен Я.диска (полигона)') 
 id_vk_user = input('Введите ваш id с VK.RU:  ')
 choose_download = input('Откуда вы хотите загрузить фотографии: ')
 quanity_foto_download = input('Количество фотографий для загрузки: ')
