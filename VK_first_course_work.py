@@ -55,7 +55,7 @@ def upload_on_Yadisk(name_foto, url_foto, time, headers):
 def find_vk_photo(path_for_json, user_id, albom_id, path_txt, quanity_foto):
     URL = 'https://api.vk.com/method/photos.get'
     params = {
-        'access_token' :'#######',
+        'access_token' :'a67f00c673c3d4b12800dd0ba29579ec56d804f3c5f3bbcef5328d4b3981fa5987b951cf2c8d8b24b9abd',
         'v' : '5.131',
         'owner_id' : {user_id},
         'album_id' : {albom_id},
@@ -110,7 +110,7 @@ def find_vk_photo(path_for_json, user_id, albom_id, path_txt, quanity_foto):
 def choose_alboms(name_albom, id_user, path_txt):
     URL = 'https://api.vk.com/method/photos.getAlbums'
     params = {
-        'access_token' :'######',
+        'access_token' :'a67f00c673c3d4b12800dd0ba29579ec56d804f3c5f3bbcef5328d4b3981fa5987b951cf2c8d8b24b9abd',
         'v' : '5.131',
         'owner_id' : {id_user},
                }
