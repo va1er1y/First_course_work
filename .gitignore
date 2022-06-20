@@ -1,2 +1,7 @@
 # Ignore the build directory
 venv/
+
+start_data.ini
+temp.py
+probniy.py
+VK_first_course_work(revision _00).py
